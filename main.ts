@@ -14,6 +14,7 @@ input.onButtonPressed(Button.A, function () {
         } else {
             basic.showString("" + (time_minute))
         }
+        basic.clearScreen()
     }
     if (page == 99) {
         if (changing_time == 1) {
